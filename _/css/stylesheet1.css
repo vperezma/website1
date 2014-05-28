@@ -39,6 +39,8 @@ html {
 }
 .main-nav ul ul {
     display: none;
+    float: left;
+    width:25%;
     background: #5f6975;
     /*rounds the edges of the the list items*/
     border-radius: 0px;
@@ -149,17 +151,23 @@ html {
 .hero {
     margin: 0 auto;
     width: 800px;
+    position:center;
     background-color: black;
 }
 .hero .container{
+    padding-top: 20px;
     /*using http://colorzilla.com/gradient-editor/*/
-    width: 800px;
-    height:300px;
-    background: #41b556; /* Old browsers */
-    background: #ebf1f6; /* Old browsers */
-    position:center;
+    width: 100%;
+    /*height:300px;*/
+ 
+    /*position:center;*/
 }
-
+.main-wrapper h1 {
+    padding-bottom: 10px;
+}
+.box .link {
+    color:orange;
+}
 .news {
     padding:20px;
 }
